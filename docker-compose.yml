@@ -1,0 +1,12 @@
+version: '3'
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    restart: always
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    restart: always
