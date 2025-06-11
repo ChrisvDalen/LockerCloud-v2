@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+client/node_modules/
+
+# Logs
+npm-debug.log*
+
+# Mac OS
+.DS_Store
+
+# Others
+public/js/bundle.js
+
