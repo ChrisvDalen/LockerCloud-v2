@@ -1,12 +1,25 @@
 # LockerCloud-v2
 
-## Running the Java WebSocket server
+Java 25 WebSocket server with a small Vite browser client.
+
+## Server
 
 ```bash
-# from the repository root
 cd server
-mvn package
-java -jar target/server.jar
+./mvnw verify
+java -jar target/server-1.0-SNAPSHOT.jar
 ```
 
-The packaged JAR includes all dependencies so the server can be started directly.
+The endpoint starts at `ws://localhost:8080/sync`.
+
+## Client
+
+```bash
+cd client
+npm ci
+npm test
+npm run build
+npm start
+```
+
+Node.js 22.12 or 24 and npm 11 are supported.

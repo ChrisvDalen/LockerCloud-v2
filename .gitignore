@@ -1,6 +1,8 @@
 # Node.js
 node_modules/
 client/node_modules/
+client/dist/
+server/target/
 
 # Logs
 npm-debug.log*
@@ -10,4 +12,3 @@ npm-debug.log*
 
 # Others
 public/js/bundle.js
-
